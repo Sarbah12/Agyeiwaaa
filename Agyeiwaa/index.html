@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="A little birthday magic for Agyeiwaa, with love from Ebenezer.">
+  <title>For Agyeiwaa, With Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/birthday.css">
+  <script src="assets/lucide.min.js" defer></script>
+  <script src="assets/birthday.js" defer></script>
+</head>
+<body>
+  <div class="edge-stitch" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="wordmark" href="#" aria-label="Agyeiwaa's birthday, return to the beginning">
+      <span class="ribbon-bow mini" aria-hidden="true"><span></span><span></span><i></i></span>
+      <span>a little birthday magic</span>
+    </a>
+    <button class="icon-button" id="sound" type="button" aria-label="Turn on birthday music" aria-pressed="false" title="Turn on birthday music"><i data-lucide="volume-x"></i></button>
+  </header>
+  <nav class="journey" aria-label="Your birthday surprises">
+    <ol>
+      <li><button type="button" data-step-link="0" aria-current="step"><span class="journey-icon"><i data-lucide="mail"></i></span><span class="journey-label">For you</span></button></li>
+      <li><button type="button" data-step-link="1" disabled><span class="journey-icon"><i data-lucide="heart"></i></span><span class="journey-label">Little joys</span></button></li>
+      <li><button type="button" data-step-link="2" disabled><span class="journey-icon"><i data-lucide="cake-slice"></i></span><span class="journey-label">A wish</span></button></li>
+      <li><button type="button" data-step-link="3" disabled><span class="journey-icon"><i data-lucide="notebook-pen"></i></span><span class="journey-label">My letter</span></button></li>
+      <li><button type="button" data-step-link="4" disabled><span class="journey-icon"><i data-lucide="gift"></i></span><span class="journey-label">All the love</span></button></li>
+    </ol>
+  </nav>
+  <main id="experience">
+    <section class="step opening" data-step="0" aria-labelledby="birthday-title">
+      <div class="chapter-heading">
+        <p class="eyebrow"><span></span> A day as lovely as you <span></span></p>
+        <h1 id="birthday-title" tabindex="-1">Happy Birthday,<span class="script name">Agyeiwaa<span class="name-heart" aria-hidden="true">&#9825;</span></span></h1>
+        <p class="subtitle">A few little surprises, wrapped up with a whole lot of love.</p>
+      </div>
+      <div class="envelope-scene" aria-hidden="true">
+        <div class="tiny-polaroid"><div class="photo-crop"><img src="assets/agyeiwaa.jpg" alt="Agyeiwaa, the birthday girl"></div><span>the birthday girl</span></div>
+        <span class="sparkle sparkle-one">&#10022;</span><span class="sparkle sparkle-two">&#10023;</span>
+        <div class="envelope">
+          <div class="envelope-note"><span class="script">Today is all about you.</span><span>A little love, from Ebenezer</span></div>
+          <div class="envelope-back"></div><div class="envelope-flap"></div><div class="envelope-front"></div>
+          <span class="envelope-address">To my lovely <b class="script">Agyeiwaa</b></span>
+          <span class="wax-seal">E<span>&#9825;</span></span>
+          <span class="ribbon-bow envelope-bow"><span></span><span></span><i></i></span>
+        </div>
+        <div class="postage"><i data-lucide="flower-2"></i><span>one of a kind</span><b>A</b></div>
+        <p class="margin-note">a little something <br>just for you <span>&#10549;</span></p>
+      </div>
+      <div class="actions"><button class="primary" id="open-envelope" type="button">Open your surprise <i data-lucide="arrow-up-right"></i></button></div>
+      <p class="sender">Sealed with love, <span class="script">Ebenezer</span></p>
+    </section>
+    <section class="step" data-step="1" aria-labelledby="joys-title" hidden>
+      <div class="chapter-heading">
+        <p class="eyebrow">01 / The sweetest little things</p>
+        <h2 id="joys-title" tabindex="-1">For the girl who makes<span class="script">life a little lovelier.</span></h2>
+        <p class="subtitle">Today comes with cake, a pink balloon, and three little reminders.</p>
+      </div>
+      <div class="joys-scene">
+        <figure class="guest-photo">
+          <span class="washi" aria-hidden="true"></span>
+          <div class="guest-crop"><img src="assets/birthday-character.jpg" width="682" height="1200" alt="A smiling birthday character with a pink balloon, party hat, and candle-topped cake."></div>
+          <figcaption class="script">Your tiny party committee</figcaption><span class="paper-heart" aria-hidden="true">&#9829;</span>
+        </figure>
+        <div class="little-notes">
+          <button class="little-note rose-note" type="button" aria-expanded="false" data-note><span class="note-icon"><i data-lucide="heart"></i></span><span class="note-content"><b>You are loved</b><span class="note-preview">a little reminder, just for you</span><span class="note-reveal" hidden>For who you are, in all your beautifully ordinary moments. Never forget that.</span></span><i class="note-plus" data-lucide="plus"></i></button>
+          <button class="little-note green-note" type="button" aria-expanded="false" data-note><span class="note-icon"><i data-lucide="flower-2"></i></span><span class="note-content"><b>You are blooming</b><span class="note-preview">at your own lovely pace</span><span class="note-reveal" hidden>There is no deadline for becoming. I hope you feel proud of how far you have come.</span></span><i class="note-plus" data-lucide="plus"></i></button>
+          <button class="little-note yellow-note" type="button" aria-expanded="false" data-note><span class="note-icon"><i data-lucide="sparkles"></i></span><span class="note-content"><b>You deserve the good things</b><span class="note-preview">yes, every single one</span><span class="note-reveal" hidden>The belly laughs, the answered prayers, the peaceful days, and the love that feels easy.</span></span><i class="note-plus" data-lucide="plus"></i></button>
+        </div>
+      </div>
+      <div class="actions"><button class="back-button" type="button" data-back aria-label="Back to your envelope" title="Back to your envelope"><i data-lucide="arrow-left"></i></button><button class="primary" type="button" data-next>There's cake, of course <i data-lucide="arrow-right"></i></button></div>
+    </section>
+    <section class="step cake-step" data-step="2" aria-labelledby="cake-title" hidden>
+      <div class="chapter-heading">
+        <p class="eyebrow">02 / A little birthday ritual</p>
+        <h2 id="cake-title" tabindex="-1">Close your eyes.<span class="script">Make a lovely wish.</span></h2>
+        <p class="subtitle" id="cake-subtitle">The big, beautiful, only-you-know kind of wish.</p>
+      </div>
+      <div class="cake-scene" id="cake-scene">
+        <span class="cake-side-note left-note script" aria-hidden="true">extra frosting,<br>extra love.</span>
+        <div class="cake-art" role="img" aria-label="A pink heart-shaped birthday cake with cherries, bows, and one lit candle" id="cake-art">
+          <img src="assets/pink-birthday-cake.png" width="1254" height="1254" alt="" loading="eager">
+          <div class="candle-flame"><span></span></div><div class="candle-smoke"><span></span><span></span><span></span></div>
+        </div>
+        <span class="cake-side-note right-note script" aria-hidden="true">may it all<br>come true <span>&#9825;</span></span>
+      </div>
+      <div class="candle-controls" id="candle-controls">
+        <button class="primary" type="button" id="blow-candle"><i data-lucide="wind"></i> Blow out the candle</button>
+        <button class="text-button mic-button" type="button" id="microphone" aria-pressed="false"><i data-lucide="mic"></i><span>Blow with your microphone</span></button>
+      </div>
+      <div class="actions" id="cake-next" hidden><button class="primary" type="button" data-next>A letter is waiting for you <i data-lucide="arrow-right"></i></button></div>
+      <p class="status" id="cake-status" role="status" aria-live="polite"></p>
+      <button class="text-button cake-back" type="button" data-back><i data-lucide="arrow-left"></i> Little joys</button>
+    </section>
+    <section class="step letter-step" data-step="3" aria-labelledby="letter-title" hidden>
+      <div class="chapter-heading"><p class="eyebrow">03 / From my heart to yours</p><h2 id="letter-title" tabindex="-1">Some things deserve<span class="script">a handwritten kind of love.</span></h2></div>
+      <article class="letter-paper">
+        <span class="washi" aria-hidden="true"></span><span class="letter-flower" aria-hidden="true"><i data-lucide="flower-2"></i></span>
+        <p class="salutation script">Dear Agyeiwaa,</p>
+        <figure class="letter-polaroid"><img src="assets/agyeiwaa.jpg" alt="Agyeiwaa"></figure>
+        <div id="letter-body">
+          <p>Happy birthday to a girl who makes the world a little softer, a little brighter, and a lot more beautiful simply by being in it.</p>
+          <p>Today, I hope you feel celebrated in all the little ways that matter. The thoughtful words, the unexpected smiles, the extra slice of cake. You deserve a day that feels as special as you are.</p>
+          <p>As you step into this new year of your life, may God bless the dreams you hold close to your heart. May He give you peace for the things you cannot control, courage for the things you can, and beautiful reasons to keep smiling.</p>
+          <p>Keep your softness. Keep your sparkle. Keep becoming the woman you are proud to be. I'm cheering for you, today and always.</p>
+        </div>
+        <div class="letter-signoff"><span>With so much love,</span><strong class="script">Ebenezer</strong><span class="signoff-heart" aria-hidden="true">&#9825;</span></div>
+        <span class="letter-postscript">P.S. The world got a good one when it got you.</span>
+      </article>
+      <div class="actions"><button class="back-button" type="button" data-back aria-label="Back to your cake" title="Back to your cake"><i data-lucide="arrow-left"></i></button><button class="primary" type="button" data-next>One last little thing <i data-lucide="arrow-right"></i></button></div>
+    </section>
+    <section class="step finale" data-step="4" aria-labelledby="finale-title" hidden>
+      <div class="chapter-heading">
+        <p class="eyebrow">04 / All the love, always</p><span class="ribbon-bow final-bow" aria-hidden="true"><span></span><span></span><i></i></span>
+        <h2 id="finale-title" tabindex="-1">Here's to your<span class="script">most beautiful chapter.</span></h2>
+        <p class="subtitle">A little birthday wish list for the year ahead.</p>
+      </div>
+      <div class="wish-garland">
+        <div class="wish-ticket"><span class="ticket-pin" aria-hidden="true"></span><i data-lucide="sun"></i><h3>More joy</h3><p>The kind that finds you<br>on ordinary Tuesdays.</p></div>
+        <div class="wish-ticket"><span class="ticket-pin" aria-hidden="true"></span><i data-lucide="flower-2"></i><h3>Soft days</h3><p>A peaceful heart.<br>A little room to bloom.</p></div>
+        <div class="wish-ticket"><span class="ticket-pin" aria-hidden="true"></span><i data-lucide="sparkles"></i><h3>Big dreams</h3><p>Open doors and prayers<br>turning into stories.</p></div>
+        <div class="wish-ticket"><span class="ticket-pin" aria-hidden="true"></span><i data-lucide="heart"></i><h3>So much love</h3><p>Given freely.<br>Returned beautifully.</p></div>
+      </div>
+      <p class="final-message">You are the occasion, Agyeiwaa.<br><span>Today, and every day after.</span></p>
+      <p class="sender">With love, always. <span class="script">Ebenezer</span></p>
+      <div class="actions finale-actions"><button class="primary" type="button" id="save-letter"><i data-lucide="download"></i> Keep this letter</button><button class="secondary" type="button" id="celebrate"><i data-lucide="party-popper"></i> A little more confetti</button></div>
+      <div class="last-actions"><button class="text-button" type="button" id="share"><i data-lucide="share-2"></i> Share the wish</button><span aria-hidden="true">&middot;</span><button class="text-button" type="button" id="restart"><i data-lucide="rotate-ccw"></i> Open it all again</button></div>
+      <p class="status" id="final-status" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer class="page-footer"><span></span><p>For Agyeiwaa <i data-lucide="heart" aria-hidden="true"></i> From Ebenezer</p><span></span></footer>
+  <div id="confetti-layer" aria-hidden="true"></div>
+  <noscript><p class="noscript">This birthday surprise needs JavaScript to open. Happy birthday, Agyeiwaa. With love, Ebenezer.</p></noscript>
+</body>
+</html>
